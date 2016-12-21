@@ -1,1 +1,1 @@
-"# Hearth Stone Tourney Admin App" 
+# Hearth Stone Tourney Admin App

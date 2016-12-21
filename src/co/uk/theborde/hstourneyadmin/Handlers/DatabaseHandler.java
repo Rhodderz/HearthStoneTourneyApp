@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Created by easyr on 21/12/2016.
  */
 public class DatabaseHandler {
-    private String server = "jdbc:mysql://172.16.0.35:3306/HSTourney";
+    private String server = "jdbc:mysql://172.16.0.35:3306/HSTourney?useSSL=false";
     private String username = "hstourney";
     private String password = "6!~WvY,\\T!cEq_R)";
 

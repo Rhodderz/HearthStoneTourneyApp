@@ -18,6 +18,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        //Class.forName("com.mysql.jdbc.Driver");
+
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/Views/MainView.fxml"));
         root = loader.load();
         mc = loader.getController();
