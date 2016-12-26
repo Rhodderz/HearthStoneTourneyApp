@@ -5,10 +5,11 @@ import co.uk.theborde.hstourneyadmin.Objects.Players;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextInputDialog;
+import javafx.util.Callback;
 
-import java.util.ArrayList;
 import java.util.Optional;
 
 public class MainController {
@@ -27,6 +28,20 @@ public class MainController {
     public void OnLoad(){
         players = FXCollections.observableArrayList(dh.getPlayers());
         userList.setItems(players);
+        userList.setCellFactory(new Callback<ListView<Players>, ListCell<Players>>() {
+            public ListCell<Players> call(ListView<Players> param) {
+                final ListCell<Players> cell = new ListCell<Players>() {
+                    @Override
+                    public void updateItem(Players item, boolean empty) {
+                        super.updateItem(item, empty);
+                        if (item != null) {
+                            setText(item.getPlayerName());
+                        }
+                    }
+                };
+                return cell;
+            }
+        });
     }
 
     /*
