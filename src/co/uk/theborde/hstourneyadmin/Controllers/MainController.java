@@ -1,20 +1,26 @@
 package co.uk.theborde.hstourneyadmin.Controllers;
 
 import co.uk.theborde.hstourneyadmin.Handlers.DatabaseHandler;
+import co.uk.theborde.hstourneyadmin.Objects.Deck;
 import co.uk.theborde.hstourneyadmin.Objects.Players;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextInputDialog;
+import javafx.scene.control.*;
+import javafx.scene.image.ImageView;
 import javafx.util.Callback;
-
 import java.util.Optional;
 
 public class MainController {
+    //View Items
     public Button newPlayer_btn;
     public ListView<Players> userList;
+    public Label playerID_lbl;
+    public Label playerName_lbl;
+    public Label playerStats_lbl;
+    public ImageView cardBack_img;
+    public ListView<Deck> deck1_lstV;
 
     private DatabaseHandler dh = new DatabaseHandler();
     private ObservableList<Players>players;
@@ -62,6 +68,7 @@ public class MainController {
 
         Optional<String> result = dialog.showAndWait();
         result.ifPresent(name -> createNewPlayer(result.get()));
+        addListeners();
     }
 
     private void createNewPlayer(String name){
@@ -84,7 +91,12 @@ public class MainController {
      */
 
     //Just some helpers
-    public void refresh(){
-
+    private void addListeners(){
+        userList.getSelectionModel().selectedIndexProperty().addListener(new ChangeListener<Number>() {
+            @Override
+            public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
+                Players player = players.get(t1.intValue());
+            }
+        });
     }
 }
