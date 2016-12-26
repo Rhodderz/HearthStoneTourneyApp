@@ -8,13 +8,10 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="rootAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="635.0" prefWidth="842.0" style="-fx-background-color: #fff;"
-            xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="co.uk.theborde.hstourneyadmin.Controllers.MainController">
+<AnchorPane fx:id="rootAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="635.0" prefWidth="842.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.uk.theborde.hstourneyadmin.Controllers.MainController">
    <children>
       <ListView fx:id="userList" prefHeight="607.0" prefWidth="200.0" />
-      <Button layoutX="2.0" layoutY="609.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+      <Button fx:id="newPlayer_btn" layoutX="2.0" layoutY="609.0" mnemonicParsing="false" onAction="#onNewPlayer" prefHeight="25.0" prefWidth="25.0" text="+" />
       <ImageView fx:id="avatar_img" fitHeight="100.0" fitWidth="100.0" layoutX="209.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Images/chicken.png" />
