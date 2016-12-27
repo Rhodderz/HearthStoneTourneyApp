@@ -8,10 +8,13 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.util.Callback;
+
+import java.io.IOException;
 import java.util.Optional;
 
 public class MainController {
@@ -37,27 +40,12 @@ public class MainController {
     private DatabaseHandler dh = new DatabaseHandler();
     private ObservableList<Players>players;
 
-    /*
-    Part 1:
-    Connect to DB
-    Get List of Players - if null means no players
-    Populate userList with player names.
-    */
     public void OnLoad(){
         players = FXCollections.observableArrayList(dh.getPlayers());
         userList.setItems(players);
+        tweakLists();
     }
 
-    /*
-    Part 2:
-    When player is selected populate fields.
-    If a field is null go with default.
-    */
-
-    /*
-    Part 3:
-    If plus button is pressed create blank player - display popup for name
-    */
     public void onNewPlayer(){
         TextInputDialog dialog = new TextInputDialog("New Player");
         dialog.setTitle("New Player");
@@ -67,7 +55,6 @@ public class MainController {
         Optional<String> result = dialog.showAndWait();
         result.ifPresent(name -> createNewPlayer(result.get()));
         addListeners();
-        tweakLists();
     }
 
     private void createNewPlayer(String name){
@@ -122,7 +109,14 @@ public class MainController {
 
     Part 5:
     If Card back is clicked open popup and select from list of backs and update player
+    */
 
+    public void deckBackClicked(){
+        //Create Custom Dialog
+
+    }
+
+    /*
     Part 6:
     If deck clicked display deck manager to add/remove cards from the deck - Max: 30, Max Same Card: 2
     When saved, if new deck add it to the deck table as an arrayblob (json) - get new deck id and add to player.
