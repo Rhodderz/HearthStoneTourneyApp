@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,13 +113,54 @@
       <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="97" column="60" lean-forward="false" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
+            <state relative-caret-position="464">
+              <caret line="163" column="17" lean-forward="false" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
+              <folding>
+                <element signature="class#2444:3018" expanded="false" />
+                <element signature="e#2611#2964#0" expanded="true" />
+                <element signature="e#2963#2964#0" expanded="true" />
+                <element signature="class#3090:3713" expanded="false" />
+                <element signature="e#3242#3659#0" expanded="true" />
+                <element signature="e#3658#3659#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Players.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Players.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="docComment;class#Players#0" expanded="false" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#1209:1783" expanded="false" />
-                <element signature="e#1376#1729#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="method#Deck#0;class#Deck#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/DatabaseHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <marker date="1482793007636" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
               </folding>
             </state>
           </provider>
@@ -126,8 +169,8 @@
       <file leaf-file-name="MainView.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resources/Views/MainView.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="663">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,12 +217,12 @@
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Players.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.java" />
-        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Main.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/DatabaseHandler.java" />
         <option value="$PROJECT_DIR$/src/Resources/Views/MainView.fxml" />
+        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" />
       </list>
     </option>
@@ -192,8 +235,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
-    <option name="height" value="754" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -240,26 +285,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearthStoneTourneyApp" />
+              <option name="myItemId" value="HSTourneyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearthStoneTourneyApp" />
+              <option name="myItemId" value="HSTourneyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearthStoneTourneyApp" />
+              <option name="myItemId" value="HSTourneyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearthStoneTourneyApp" />
+              <option name="myItemId" value="HSTourneyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -269,11 +313,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearthStoneTourneyApp" />
+              <option name="myItemId" value="HSTourneyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HearthStoneTourneyApp" />
+              <option name="myItemId" value="HSTourneyAdmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -285,9 +329,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HSTourneyAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HSTourneyAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hstourneyadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HSTourneyAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HSTourneyAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hstourneyadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -395,10 +484,10 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.theborde.hstourneyadmin.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -639,12 +728,45 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -697,23 +819,46 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="co.uk.theborde.hstourneyadmin.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -721,18 +866,11 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="HSTourneyAdmin" />
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -759,14 +897,15 @@
       <workItem from="1482511004845" duration="1571000" />
       <workItem from="1482514940457" duration="272000" />
       <workItem from="1482755167658" duration="8394000" />
+      <workItem from="1482793063533" duration="5529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37808000" />
+    <option name="totallyTimeSpent" value="43337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="754" extended-state="4" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -778,13 +917,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30016053" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29978585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14939025" sideWeight="0.6703755" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085287" sideWeight="0.6703755" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -832,6 +971,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Views/MainView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -849,10 +1014,12 @@
         <state relative-caret-position="234">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1209:1783" expanded="false" />
-            <element signature="e#1376#1729#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -872,9 +1039,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1482512122493" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -892,46 +1057,8 @@
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#904#905#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1118#1119#0" expanded="false" />
-            <element signature="e#1158#1159#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1252#1253#0" expanded="false" />
-            <element signature="e#1299#1300#0" expanded="false" />
-            <element signature="e#1336#1337#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1403#1404#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1526#1527#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1611#1612#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-            <element signature="e#1687#1688#0" expanded="false" />
-            <element signature="e#1718#1719#0" expanded="false" />
-            <element signature="e#1766#1767#0" expanded="false" />
-            <element signature="e#1801#1802#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1023,6 +1150,7 @@
         <state relative-caret-position="468">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#Deck#0;class#Deck#0" expanded="false" />
           </folding>
         </state>
@@ -1045,10 +1173,12 @@
         <state relative-caret-position="234">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1209:1783" expanded="false" />
-            <element signature="e#1376#1729#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1068,9 +1198,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <marker date="1482512122493" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,46 +1216,8 @@
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#904#905#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1118#1119#0" expanded="false" />
-            <element signature="e#1158#1159#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1252#1253#0" expanded="false" />
-            <element signature="e#1299#1300#0" expanded="false" />
-            <element signature="e#1336#1337#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1403#1404#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1526#1527#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1611#1612#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-            <element signature="e#1687#1688#0" expanded="false" />
-            <element signature="e#1718#1719#0" expanded="false" />
-            <element signature="e#1766#1767#0" expanded="false" />
-            <element signature="e#1801#1802#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1219,6 +1309,7 @@
         <state relative-caret-position="468">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#Deck#0;class#Deck#0" expanded="false" />
           </folding>
         </state>
@@ -1241,10 +1332,12 @@
         <state relative-caret-position="234">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1209:1783" expanded="false" />
-            <element signature="e#1376#1729#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1264,9 +1357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="12" column="81" lean-forward="false" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
-          <folding>
-            <marker date="1482512122493" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,46 +1375,8 @@
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#904#905#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1118#1119#0" expanded="false" />
-            <element signature="e#1158#1159#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1252#1253#0" expanded="false" />
-            <element signature="e#1299#1300#0" expanded="false" />
-            <element signature="e#1336#1337#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1403#1404#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1526#1527#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1611#1612#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-            <element signature="e#1687#1688#0" expanded="false" />
-            <element signature="e#1718#1719#0" expanded="false" />
-            <element signature="e#1766#1767#0" expanded="false" />
-            <element signature="e#1801#1802#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1415,6 +1468,7 @@
         <state relative-caret-position="504">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#Deck#0;class#Deck#0" expanded="false" />
           </folding>
         </state>
@@ -1437,10 +1491,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1209:1783" expanded="false" />
-            <element signature="e#1376#1729#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1473,10 +1529,12 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1209:1783" expanded="false" />
-            <element signature="e#1376#1729#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1490,56 +1548,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Players.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#462#463#0" expanded="false" />
-            <element signature="e#490#491#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#651#652#0" expanded="false" />
-            <element signature="e#687#688#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#904#905#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1060#1061#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-            <element signature="e#1118#1119#0" expanded="false" />
-            <element signature="e#1158#1159#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1252#1253#0" expanded="false" />
-            <element signature="e#1299#1300#0" expanded="false" />
-            <element signature="e#1336#1337#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1403#1404#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1491#1492#0" expanded="false" />
-            <element signature="e#1526#1527#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
-            <element signature="e#1611#1612#0" expanded="false" />
-            <element signature="e#1652#1653#0" expanded="false" />
-            <element signature="e#1687#1688#0" expanded="false" />
-            <element signature="e#1718#1719#0" expanded="false" />
-            <element signature="e#1766#1767#0" expanded="false" />
-            <element signature="e#1801#1802#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java">
@@ -1649,16 +1657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1482512122493" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1667,16 +1665,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1118#1119#0" expanded="true" />
             <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1691,8 +1679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/Views/MainView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="663">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1700,15 +1688,50 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Players.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="97" column="60" lean-forward="false" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
+        <state relative-caret-position="731">
+          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#Players#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/DatabaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <marker date="1482793007636" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#1209:1783" expanded="false" />
-            <element signature="e#1376#1729#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="163" column="17" lean-forward="false" selection-start-line="163" selection-start-column="17" selection-end-line="163" selection-end-column="17" />
+          <folding>
+            <element signature="class#2444:3018" expanded="false" />
+            <element signature="e#2611#2964#0" expanded="true" />
+            <element signature="e#2963#2964#0" expanded="true" />
+            <element signature="class#3090:3713" expanded="false" />
+            <element signature="e#3242#3659#0" expanded="true" />
+            <element signature="e#3658#3659#0" expanded="true" />
           </folding>
         </state>
       </provider>
