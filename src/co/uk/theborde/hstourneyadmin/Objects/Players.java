@@ -13,7 +13,7 @@ public class Players {
     private int TotalWins;
     private int TotalGames;
     private int TotalLosses;
-    private String CardBack;
+    private CardBack CardBack;
 
     public int getID() {
         return ID;
@@ -87,11 +87,11 @@ public class Players {
         TotalLosses = totalLosses;
     }
 
-    public String getCardBack() {
+    public CardBack getCardBack() {
         return CardBack;
     }
 
-    public void setCardBack(String cardBack) {
+    public void setCardBack(CardBack cardBack) {
         CardBack = cardBack;
     }
 }

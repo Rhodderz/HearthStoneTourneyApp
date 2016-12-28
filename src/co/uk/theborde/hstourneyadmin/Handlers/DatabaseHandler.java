@@ -32,7 +32,7 @@ public class DatabaseHandler {
                 player.setTotalWins(rs.getInt(7));
                 player.setTotalGames(rs.getInt(8));
                 player.setTotalLosses(rs.getInt(9));
-                player.setCardBack(rs.getString(10));
+                player.setCardBack(HSAPI.getSingleCardback(rs.getInt(10)));
                 //Get/Create Decks - Gets JSON - Convert JSON into ID's(int)
                 player.setDeck1(new Deck(rs.getString(4)));
                 player.setDeck2(new Deck(rs.getString(5)));

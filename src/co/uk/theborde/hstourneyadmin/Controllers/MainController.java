@@ -1,24 +1,28 @@
 package co.uk.theborde.hstourneyadmin.Controllers;
 
 import co.uk.theborde.hstourneyadmin.Handlers.DatabaseHandler;
+import co.uk.theborde.hstourneyadmin.Main;
 import co.uk.theborde.hstourneyadmin.Objects.Card;
-import co.uk.theborde.hstourneyadmin.Objects.Deck;
 import co.uk.theborde.hstourneyadmin.Objects.Players;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import javafx.util.Callback;
 
-import java.io.IOException;
 import java.util.Optional;
 
 public class MainController {
     //View Items
+    public AnchorPane rootAnchorPane;
     public Button newPlayer_btn;
     public Button save_btn;
     public ListView<Players> userList;
@@ -39,6 +43,8 @@ public class MainController {
 
     private DatabaseHandler dh = new DatabaseHandler();
     private ObservableList<Players>players;
+
+    public Players currentPlayer;
 
     public void OnLoad(){
         players = FXCollections.observableArrayList(dh.getPlayers());
@@ -113,7 +119,28 @@ public class MainController {
 
     public void deckBackClicked(){
         //Create Custom Dialog
+        try{
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(Main.class.getResource("/Views/DeckBackDialog.fxml"));
+            ScrollPane rootScrollPane = (ScrollPane) loader.load();
 
+            Stage dialogStage = new Stage();
+            dialogStage.setTitle("Select Deck Backing");
+            dialogStage.initModality(Modality.WINDOW_MODAL);
+            dialogStage.initOwner(rootAnchorPane.getScene().getWindow());
+            Scene scene = new Scene(rootScrollPane);
+            dialogStage.setScene(scene);
+
+            DeckBackController deckBackController = loader.getController();
+            deckBackController.setDialogStage(dialogStage);
+            deckBackController.mainController = this;
+
+            dialogStage.showAndWait();
+
+            //Set current card back to one selected
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
     }
 
     /*
@@ -127,36 +154,43 @@ public class MainController {
         userList.getSelectionModel().selectedIndexProperty().addListener(new ChangeListener<Number>() {
             @Override
             public void changed(ObservableValue<? extends Number> observableValue, Number number, Number t1) {
-                Players player = players.get(t1.intValue());
-                playerID_lbl.setText((""+player.getID()));
-                playerName_lbl.setText(player.getPlayerName());
+                currentPlayer = players.get(t1.intValue());
+                playerID_lbl.setText((""+currentPlayer.getID()));
+                playerName_lbl.setText(currentPlayer.getPlayerName());
                 playerStats_lbl.setText(
-                        player.getTotalWins() + "/" +
-                        player.getTotalGames() + "/" +
-                        player.getTotalLosses()
+                        currentPlayer.getTotalWins() + "/" +
+                                currentPlayer.getTotalGames() + "/" +
+                                currentPlayer.getTotalLosses()
                 );
                 //Check if card back is null, if null dont change (use default)
-                if(player.getCardBack() != null && !player.getCardBack().isEmpty())
-                    cardBack_img.imageProperty().set(new Image(player.getCardBack())); //Should Work
+                if(currentPlayer.getCardBack() != null && !currentPlayer.getCardBack().getImage().isEmpty()) {
+                    updateCardBack(); //Should Work
+                }else{
+                    cardBack_img.setImage(new Image("/Images/DeckBacks/Classic.png"));
+                }
                 //Do the same for avatar
-                if(player.getAvatarURL() != null && !player.getAvatarURL().isEmpty())
-                    avatar_img.imageProperty().set(new Image(player.getAvatarURL()));
-                if(player.getDeck1() != null) {
-                    deck1_lstV.setItems(player.getDeck1().getDeck());
-                    deck1ID_lbl.setText(""+player.getDeck1().getID());
-                    deck1Name_lbl.setText(player.getDeck1().getName());
+                if(currentPlayer.getAvatarURL() != null && !currentPlayer.getAvatarURL().isEmpty())
+                    avatar_img.imageProperty().set(new Image(currentPlayer.getAvatarURL()));
+                if(currentPlayer.getDeck1() != null) {
+                    deck1_lstV.setItems(currentPlayer.getDeck1().getDeck());
+                    deck1ID_lbl.setText(""+currentPlayer.getDeck1().getID());
+                    deck1Name_lbl.setText(currentPlayer.getDeck1().getName());
                 }
-                if(player.getDeck2() != null) {
-                    deck2_lstV.setItems(player.getDeck2().getDeck());
-                    deck2ID_lbl.setText(""+player.getDeck2().getID());
-                    deck2Name_lbl.setText(player.getDeck2().getName());
+                if(currentPlayer.getDeck2() != null) {
+                    deck2_lstV.setItems(currentPlayer.getDeck2().getDeck());
+                    deck2ID_lbl.setText(""+currentPlayer.getDeck2().getID());
+                    deck2Name_lbl.setText(currentPlayer.getDeck2().getName());
                 }
-                if(player.getDeck3() != null) {
-                    deck3_lstV.setItems(player.getDeck3().getDeck());
-                    deck3ID_lbl.setText(""+player.getDeck3().getID());
-                    deck3Name_lbl.setText(player.getDeck3().getName());
+                if(currentPlayer.getDeck3() != null) {
+                    deck3_lstV.setItems(currentPlayer.getDeck3().getDeck());
+                    deck3ID_lbl.setText(""+currentPlayer.getDeck3().getID());
+                    deck3Name_lbl.setText(currentPlayer.getDeck3().getName());
                 }
             }
         });
+    }
+
+    public void updateCardBack(){
+        cardBack_img.setImage(new Image("/Images/DeckBacks/"+ currentPlayer.getCardBack().getName() +".png"));
     }
 }
