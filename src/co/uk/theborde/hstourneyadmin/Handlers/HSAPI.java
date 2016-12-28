@@ -6,6 +6,7 @@ import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.image.Image;
@@ -34,30 +35,31 @@ public class HSAPI {
                     .header("Accept", "application/json")
                     .asJson();
             JSONObject cardObj = response.getBody().getObject();
-
-            card.setCardID(cardObj.getString("cardId"));
-            card.setName(cardObj.getString("name"));
-            card.setCardSet(cardObj.getString("cardSet"));
-            card.setType(cardObj.getString("type"));
-            card.setFaction(cardObj.getString("faction"));
-            card.setRarity(cardObj.getString("rarity"));
-            card.setCost(cardObj.getInt("cost"));
-            card.setAttack(cardObj.getInt("attack"));
-            card.setHealth(cardObj.getInt("health"));
-            card.setText(cardObj.getString("text"));
-            card.setFlavor(cardObj.getString("flavor"));
-            card.setArtist(cardObj.getString("artist"));
-            card.setCollectible(cardObj.getBoolean("collectible"));
-            card.setElite(cardObj.getBoolean("elite"));
-            card.setRace(cardObj.getString("race"));
-            card.setImage(cardObj.getString("img"));
-            card.setImageGold(cardObj.getString("imgGold"));
-            card.setLocale(cardObj.getString("locale"));
+            card = JSONToObj.JSONObjToCard(cardObj);
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
 
         return card;
+    }
+
+    public static ObservableList<Card> getAllCards(){
+        ObservableList<Card> cards = FXCollections.observableArrayList(new ArrayList<Card>());
+
+        try{
+            HttpResponse<JsonNode> response = Unirest.get("https://omgvamp-hearthstone-v1.p.mashape.com/cards")
+                    .header("X-Mashape-Key", "hzhJddPhgxmshn5MdqLhuLmI5LIRp1A22LFjsnDiq8WaEuvWXa")
+                    .asJson();
+
+            JSONArray cardJArray = response.getBody().getArray();
+            for(int i = 0; i < cardJArray.length(); i++){
+                cards.add(JSONToObj.JSONObjToCard(cardJArray.getJSONObject(i)));
+            }
+        }catch (UnirestException une){
+            une.printStackTrace();
+        }
+
+        return cards;
     }
 
     public static ArrayList<CardBack> getAllCardBacks(){
