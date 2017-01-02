@@ -1,5 +1,9 @@
 package co.uk.theborde.hstourneyadmin.Objects;
 
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+
 /**
  * Created by easyr on 21/12/2016.
  */
@@ -8,6 +12,7 @@ public class Card {
     private String Name;
     private String CardSet;
     private String Type;
+    private String PlayerClass;
     private String Faction;
     private String Rarity;
     private int Cost;
@@ -22,6 +27,8 @@ public class Card {
     private String image;
     private String imageGold;
     private String locale;
+    private ArrayList<String> mechanics;
+    private JSONObject rawJSON;
 
     public String getCardID() {
         return CardID;
@@ -165,5 +172,29 @@ public class Card {
 
     public void setLocale(String locale) {
         this.locale = locale;
+    }
+
+    public ArrayList<String> getMechanics() {
+        return mechanics;
+    }
+
+    public void setMechanics(ArrayList<String> mechanics) {
+        this.mechanics = mechanics;
+    }
+
+    public String getPlayerClass() {
+        return PlayerClass;
+    }
+
+    public void setPlayerClass(String playerClass) {
+        PlayerClass = playerClass;
+    }
+
+    public JSONObject getRawJSON() {
+        return rawJSON;
+    }
+
+    public void setRawJSON(JSONObject rawJSON) {
+        this.rawJSON = rawJSON;
     }
 }

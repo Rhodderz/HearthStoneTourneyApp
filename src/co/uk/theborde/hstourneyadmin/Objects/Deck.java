@@ -1,6 +1,7 @@
 package co.uk.theborde.hstourneyadmin.Objects;
 
 import co.uk.theborde.hstourneyadmin.Handlers.HSAPI;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -14,11 +15,12 @@ import java.util.ArrayList;
  */
 public class Deck {
     private ObservableList<Card> Cards;
+    private Card hero;
     private String name;
     private int ID;
 
     public Deck(){
-        //Empty
+        Cards = FXCollections.observableArrayList(new ArrayList<Card>());
     }
 
     public Deck(String jsonString){
@@ -67,5 +69,11 @@ public class Deck {
     }
     public void setName(String name) {
         this.name = name;
+    }
+    public Card getHero() {
+        return hero;
+    }
+    public void setHero(Card hero) {
+        this.hero = hero;
     }
 }

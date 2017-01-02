@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/JSONToObj.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/Views/HeroDialog.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/HeroDialogController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CardBackURLs.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController$1.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$1$1.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$1.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$2$1.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$2.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$3.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Controllers/MainController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Objects/Card.class" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/co/uk/theborde/hstourneyadmin/Objects/Card.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/Resources/Views/MainView.fxml" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/Resources/Views/MainView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HSTourneyAdmin/Views/MainView.fxml" afterPath="$PROJECT_DIR$/out/production/HSTourneyAdmin/Views/MainView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml" afterPath="$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Resources/Views/MainView.fxml" afterPath="$PROJECT_DIR$/src/Resources/Views/MainView.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/JSONToObj.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/JSONToObj.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" afterPath="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -112,98 +132,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HSAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="55" column="80" lean-forward="false" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getCard#0;class#HSAPI#0" expanded="false" />
-                <element signature="e#2304#2314#0" expanded="true" />
-                <element signature="method#getSingleCardback#0;class#HSAPI#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JSONToObj.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/JSONToObj.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainView.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/Views/MainView.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="128" column="6" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
               <folding>
                 <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-                <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-                <element signature="class#2315:2889" expanded="false" />
-                <element signature="e#2482#2835#0" expanded="true" />
-                <element signature="e#2834#2835#0" expanded="true" />
-                <element signature="class#2961:3584" expanded="false" />
-                <element signature="e#3113#3530#0" expanded="true" />
-                <element signature="e#3529#3530#0" expanded="true" />
-                <element signature="class#5357:7517" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckManager.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeckManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/DatabaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="34" column="73" lean-forward="false" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-              <folding>
-                <marker date="1482881546233" expanded="true" signature="825:856" ph="SELECT * FRO... Players" />
               </folding>
             </state>
           </provider>
@@ -244,23 +179,25 @@
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controller.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Cards.java" />
-        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Main.java" />
-        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/CardBacks.java" />
         <option value="$PROJECT_DIR$/src/Resources/Views/DeckBackDialog.fxml" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Players.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/CardBack.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java" />
         <option value="$PROJECT_DIR$/src/Resources/Views/MainView.fxml" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.java" />
-        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" />
-        <option value="$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml" />
-        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/JSONToObj.java" />
+        <option value="$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml" />
         <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.java" />
+        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/HeroDialogController.java" />
+        <option value="$PROJECT_DIR$/src/Resources/Views/HeroDialog.fxml" />
+        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java" />
+        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java" />
       </list>
     </option>
   </component>
@@ -299,6 +236,11 @@
             <id>Java language level migration aidsJava</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -481,7 +423,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21494253" />
@@ -989,39 +931,49 @@
       <workItem from="1482511004845" duration="1571000" />
       <workItem from="1482514940457" duration="272000" />
       <workItem from="1482755167658" duration="8394000" />
-      <workItem from="1482793063533" duration="30864000" />
+      <workItem from="1482793063533" duration="88430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68672000" />
+    <option name="totallyTimeSpent" value="126238000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30054054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15101388" sideWeight="0.6703755" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23347548" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.2280514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1921" y="31" width="833" height="1018" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1921" y="31" width="958" height="1018" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1033,7 +985,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1055,7 +1006,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="2" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1066,57 +1017,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/Views/MainView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1154,8 +1058,8 @@
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1166,78 +1070,78 @@
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Card#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#754#755#0" expanded="false" />
-            <element signature="e#781#782#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1150#1151#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-            <element signature="e#1259#1260#0" expanded="false" />
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1321#1322#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-            <element signature="e#1396#1397#0" expanded="false" />
-            <element signature="e#1424#1425#0" expanded="false" />
-            <element signature="e#1451#1452#0" expanded="false" />
-            <element signature="e#1488#1489#0" expanded="false" />
-            <element signature="e#1515#1516#0" expanded="false" />
-            <element signature="e#1545#1546#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1646#1647#0" expanded="false" />
-            <element signature="e#1676#1677#0" expanded="false" />
-            <element signature="e#1705#1706#0" expanded="false" />
-            <element signature="e#1746#1747#0" expanded="false" />
-            <element signature="e#1777#1778#0" expanded="false" />
-            <element signature="e#1808#1809#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#1875#1876#0" expanded="false" />
-            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#886#887#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1045#1046#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <element signature="e#1185#1186#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+            <element signature="e#1389#1390#0" expanded="false" />
+            <element signature="e#1422#1423#0" expanded="false" />
+            <element signature="e#1455#1456#0" expanded="false" />
+            <element signature="e#1484#1485#0" expanded="false" />
+            <element signature="e#1528#1529#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+            <element signature="e#1587#1588#0" expanded="false" />
+            <element signature="e#1614#1615#0" expanded="false" />
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1678#1679#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+            <element signature="e#1737#1738#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1868#1869#0" expanded="false" />
+            <element signature="e#1909#1910#0" expanded="false" />
             <element signature="e#1940#1941#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
-            <element signature="e#2013#2014#0" expanded="false" />
-            <element signature="e#2049#2050#0" expanded="false" />
-            <element signature="e#2082#2083#0" expanded="false" />
-            <element signature="e#2111#2112#0" expanded="false" />
-            <element signature="e#2155#2156#0" expanded="false" />
-            <element signature="e#2191#2192#0" expanded="false" />
-            <element signature="e#2229#2230#0" expanded="false" />
-            <element signature="e#2263#2264#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#1998#1999#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
+            <element signature="e#2070#2071#0" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2132#2133#0" expanded="false" />
+            <element signature="e#2176#2177#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+            <element signature="e#2245#2246#0" expanded="false" />
+            <element signature="e#2274#2275#0" expanded="false" />
             <element signature="e#2318#2319#0" expanded="false" />
-            <element signature="e#2364#2365#0" expanded="false" />
-            <element signature="e#2396#2397#0" expanded="false" />
-            <element signature="e#2424#2425#0" expanded="false" />
-            <element signature="e#2467#2468#0" expanded="false" />
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2532#2533#0" expanded="false" />
+            <element signature="e#2354#2355#0" expanded="false" />
+            <element signature="e#2392#2393#0" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2527#2528#0" expanded="false" />
             <element signature="e#2559#2560#0" expanded="false" />
-            <element signature="e#2599#2600#0" expanded="false" />
-            <element signature="e#2631#2632#0" expanded="false" />
-            <element signature="e#2663#2664#0" expanded="false" />
-            <element signature="e#2691#2692#0" expanded="false" />
-            <element signature="e#2733#2734#0" expanded="false" />
-            <element signature="e#2767#2768#0" expanded="false" />
-            <element signature="e#2803#2804#0" expanded="false" />
-            <element signature="e#2835#2836#0" expanded="false" />
-            <element signature="e#2885#2886#0" expanded="false" />
-            <element signature="e#2927#2928#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="false" />
-            <element signature="e#2989#2990#0" expanded="false" />
-            <element signature="e#3033#3034#0" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
+            <element signature="e#2587#2588#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2664#2665#0" expanded="false" />
+            <element signature="e#2695#2696#0" expanded="false" />
+            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="e#2762#2763#0" expanded="false" />
+            <element signature="e#2794#2795#0" expanded="false" />
+            <element signature="e#2826#2827#0" expanded="false" />
+            <element signature="e#2854#2855#0" expanded="false" />
+            <element signature="e#2896#2897#0" expanded="false" />
+            <element signature="e#2930#2931#0" expanded="false" />
+            <element signature="e#2966#2967#0" expanded="false" />
+            <element signature="e#2998#2999#0" expanded="false" />
+            <element signature="e#3048#3049#0" expanded="false" />
+            <element signature="e#3090#3091#0" expanded="false" />
+            <element signature="e#3123#3124#0" expanded="false" />
+            <element signature="e#3152#3153#0" expanded="false" />
+            <element signature="e#3196#3197#0" expanded="false" />
+            <element signature="e#3232#3233#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1247,8 +1151,12 @@
         <state relative-caret-position="468">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
+            <element signature="docComment;class#Deck#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="method#Deck#1;class#Deck#0" expanded="false" />
+            <element signature="e#887#912#0" expanded="false" />
+            <element signature="method#saveToJSON#0;class#Deck#0" expanded="false" />
+            <element signature="e#1459#1507#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1269,14 +1177,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1314,8 +1214,8 @@
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1326,78 +1226,78 @@
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Card#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#754#755#0" expanded="false" />
-            <element signature="e#781#782#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1150#1151#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-            <element signature="e#1259#1260#0" expanded="false" />
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1321#1322#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-            <element signature="e#1396#1397#0" expanded="false" />
-            <element signature="e#1424#1425#0" expanded="false" />
-            <element signature="e#1451#1452#0" expanded="false" />
-            <element signature="e#1488#1489#0" expanded="false" />
-            <element signature="e#1515#1516#0" expanded="false" />
-            <element signature="e#1545#1546#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1646#1647#0" expanded="false" />
-            <element signature="e#1676#1677#0" expanded="false" />
-            <element signature="e#1705#1706#0" expanded="false" />
-            <element signature="e#1746#1747#0" expanded="false" />
-            <element signature="e#1777#1778#0" expanded="false" />
-            <element signature="e#1808#1809#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#1875#1876#0" expanded="false" />
-            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#886#887#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1045#1046#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <element signature="e#1185#1186#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+            <element signature="e#1389#1390#0" expanded="false" />
+            <element signature="e#1422#1423#0" expanded="false" />
+            <element signature="e#1455#1456#0" expanded="false" />
+            <element signature="e#1484#1485#0" expanded="false" />
+            <element signature="e#1528#1529#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+            <element signature="e#1587#1588#0" expanded="false" />
+            <element signature="e#1614#1615#0" expanded="false" />
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1678#1679#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+            <element signature="e#1737#1738#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1868#1869#0" expanded="false" />
+            <element signature="e#1909#1910#0" expanded="false" />
             <element signature="e#1940#1941#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
-            <element signature="e#2013#2014#0" expanded="false" />
-            <element signature="e#2049#2050#0" expanded="false" />
-            <element signature="e#2082#2083#0" expanded="false" />
-            <element signature="e#2111#2112#0" expanded="false" />
-            <element signature="e#2155#2156#0" expanded="false" />
-            <element signature="e#2191#2192#0" expanded="false" />
-            <element signature="e#2229#2230#0" expanded="false" />
-            <element signature="e#2263#2264#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#1998#1999#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
+            <element signature="e#2070#2071#0" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2132#2133#0" expanded="false" />
+            <element signature="e#2176#2177#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+            <element signature="e#2245#2246#0" expanded="false" />
+            <element signature="e#2274#2275#0" expanded="false" />
             <element signature="e#2318#2319#0" expanded="false" />
-            <element signature="e#2364#2365#0" expanded="false" />
-            <element signature="e#2396#2397#0" expanded="false" />
-            <element signature="e#2424#2425#0" expanded="false" />
-            <element signature="e#2467#2468#0" expanded="false" />
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2532#2533#0" expanded="false" />
+            <element signature="e#2354#2355#0" expanded="false" />
+            <element signature="e#2392#2393#0" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2527#2528#0" expanded="false" />
             <element signature="e#2559#2560#0" expanded="false" />
-            <element signature="e#2599#2600#0" expanded="false" />
-            <element signature="e#2631#2632#0" expanded="false" />
-            <element signature="e#2663#2664#0" expanded="false" />
-            <element signature="e#2691#2692#0" expanded="false" />
-            <element signature="e#2733#2734#0" expanded="false" />
-            <element signature="e#2767#2768#0" expanded="false" />
-            <element signature="e#2803#2804#0" expanded="false" />
-            <element signature="e#2835#2836#0" expanded="false" />
-            <element signature="e#2885#2886#0" expanded="false" />
-            <element signature="e#2927#2928#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="false" />
-            <element signature="e#2989#2990#0" expanded="false" />
-            <element signature="e#3033#3034#0" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
+            <element signature="e#2587#2588#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2664#2665#0" expanded="false" />
+            <element signature="e#2695#2696#0" expanded="false" />
+            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="e#2762#2763#0" expanded="false" />
+            <element signature="e#2794#2795#0" expanded="false" />
+            <element signature="e#2826#2827#0" expanded="false" />
+            <element signature="e#2854#2855#0" expanded="false" />
+            <element signature="e#2896#2897#0" expanded="false" />
+            <element signature="e#2930#2931#0" expanded="false" />
+            <element signature="e#2966#2967#0" expanded="false" />
+            <element signature="e#2998#2999#0" expanded="false" />
+            <element signature="e#3048#3049#0" expanded="false" />
+            <element signature="e#3090#3091#0" expanded="false" />
+            <element signature="e#3123#3124#0" expanded="false" />
+            <element signature="e#3152#3153#0" expanded="false" />
+            <element signature="e#3196#3197#0" expanded="false" />
+            <element signature="e#3232#3233#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1407,8 +1307,12 @@
         <state relative-caret-position="468">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
+            <element signature="docComment;class#Deck#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="method#Deck#1;class#Deck#0" expanded="false" />
+            <element signature="e#887#912#0" expanded="false" />
+            <element signature="method#saveToJSON#0;class#Deck#0" expanded="false" />
+            <element signature="e#1459#1507#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1429,14 +1333,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1474,8 +1370,8 @@
           <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1486,78 +1382,78 @@
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#Card#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#754#755#0" expanded="false" />
-            <element signature="e#781#782#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#912#913#0" expanded="false" />
-            <element signature="e#958#959#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1022#1023#0" expanded="false" />
-            <element signature="e#1049#1050#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1116#1117#0" expanded="false" />
-            <element signature="e#1150#1151#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-            <element signature="e#1226#1227#0" expanded="false" />
-            <element signature="e#1259#1260#0" expanded="false" />
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1321#1322#0" expanded="false" />
-            <element signature="e#1365#1366#0" expanded="false" />
-            <element signature="e#1396#1397#0" expanded="false" />
-            <element signature="e#1424#1425#0" expanded="false" />
-            <element signature="e#1451#1452#0" expanded="false" />
-            <element signature="e#1488#1489#0" expanded="false" />
-            <element signature="e#1515#1516#0" expanded="false" />
-            <element signature="e#1545#1546#0" expanded="false" />
-            <element signature="e#1574#1575#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1646#1647#0" expanded="false" />
-            <element signature="e#1676#1677#0" expanded="false" />
-            <element signature="e#1705#1706#0" expanded="false" />
-            <element signature="e#1746#1747#0" expanded="false" />
-            <element signature="e#1777#1778#0" expanded="false" />
-            <element signature="e#1808#1809#0" expanded="false" />
-            <element signature="e#1835#1836#0" expanded="false" />
-            <element signature="e#1875#1876#0" expanded="false" />
-            <element signature="e#1907#1908#0" expanded="false" />
+            <element signature="e#782#783#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#855#856#0" expanded="false" />
+            <element signature="e#886#887#0" expanded="false" />
+            <element signature="e#917#918#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1045#1046#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
+            <element signature="e#1185#1186#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1252#1253#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1313#1314#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+            <element signature="e#1389#1390#0" expanded="false" />
+            <element signature="e#1422#1423#0" expanded="false" />
+            <element signature="e#1455#1456#0" expanded="false" />
+            <element signature="e#1484#1485#0" expanded="false" />
+            <element signature="e#1528#1529#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+            <element signature="e#1587#1588#0" expanded="false" />
+            <element signature="e#1614#1615#0" expanded="false" />
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1678#1679#0" expanded="false" />
+            <element signature="e#1708#1709#0" expanded="false" />
+            <element signature="e#1737#1738#0" expanded="false" />
+            <element signature="e#1778#1779#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1868#1869#0" expanded="false" />
+            <element signature="e#1909#1910#0" expanded="false" />
             <element signature="e#1940#1941#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
-            <element signature="e#2013#2014#0" expanded="false" />
-            <element signature="e#2049#2050#0" expanded="false" />
-            <element signature="e#2082#2083#0" expanded="false" />
-            <element signature="e#2111#2112#0" expanded="false" />
-            <element signature="e#2155#2156#0" expanded="false" />
-            <element signature="e#2191#2192#0" expanded="false" />
-            <element signature="e#2229#2230#0" expanded="false" />
-            <element signature="e#2263#2264#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#1998#1999#0" expanded="false" />
+            <element signature="e#2038#2039#0" expanded="false" />
+            <element signature="e#2070#2071#0" expanded="false" />
+            <element signature="e#2103#2104#0" expanded="false" />
+            <element signature="e#2132#2133#0" expanded="false" />
+            <element signature="e#2176#2177#0" expanded="false" />
+            <element signature="e#2212#2213#0" expanded="false" />
+            <element signature="e#2245#2246#0" expanded="false" />
+            <element signature="e#2274#2275#0" expanded="false" />
             <element signature="e#2318#2319#0" expanded="false" />
-            <element signature="e#2364#2365#0" expanded="false" />
-            <element signature="e#2396#2397#0" expanded="false" />
-            <element signature="e#2424#2425#0" expanded="false" />
-            <element signature="e#2467#2468#0" expanded="false" />
-            <element signature="e#2501#2502#0" expanded="false" />
-            <element signature="e#2532#2533#0" expanded="false" />
+            <element signature="e#2354#2355#0" expanded="false" />
+            <element signature="e#2392#2393#0" expanded="false" />
+            <element signature="e#2426#2427#0" expanded="false" />
+            <element signature="e#2481#2482#0" expanded="false" />
+            <element signature="e#2527#2528#0" expanded="false" />
             <element signature="e#2559#2560#0" expanded="false" />
-            <element signature="e#2599#2600#0" expanded="false" />
-            <element signature="e#2631#2632#0" expanded="false" />
-            <element signature="e#2663#2664#0" expanded="false" />
-            <element signature="e#2691#2692#0" expanded="false" />
-            <element signature="e#2733#2734#0" expanded="false" />
-            <element signature="e#2767#2768#0" expanded="false" />
-            <element signature="e#2803#2804#0" expanded="false" />
-            <element signature="e#2835#2836#0" expanded="false" />
-            <element signature="e#2885#2886#0" expanded="false" />
-            <element signature="e#2927#2928#0" expanded="false" />
-            <element signature="e#2960#2961#0" expanded="false" />
-            <element signature="e#2989#2990#0" expanded="false" />
-            <element signature="e#3033#3034#0" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
+            <element signature="e#2587#2588#0" expanded="false" />
+            <element signature="e#2630#2631#0" expanded="false" />
+            <element signature="e#2664#2665#0" expanded="false" />
+            <element signature="e#2695#2696#0" expanded="false" />
+            <element signature="e#2722#2723#0" expanded="false" />
+            <element signature="e#2762#2763#0" expanded="false" />
+            <element signature="e#2794#2795#0" expanded="false" />
+            <element signature="e#2826#2827#0" expanded="false" />
+            <element signature="e#2854#2855#0" expanded="false" />
+            <element signature="e#2896#2897#0" expanded="false" />
+            <element signature="e#2930#2931#0" expanded="false" />
+            <element signature="e#2966#2967#0" expanded="false" />
+            <element signature="e#2998#2999#0" expanded="false" />
+            <element signature="e#3048#3049#0" expanded="false" />
+            <element signature="e#3090#3091#0" expanded="false" />
+            <element signature="e#3123#3124#0" expanded="false" />
+            <element signature="e#3152#3153#0" expanded="false" />
+            <element signature="e#3196#3197#0" expanded="false" />
+            <element signature="e#3232#3233#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1567,8 +1463,12 @@
         <state relative-caret-position="504">
           <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
+            <element signature="docComment;class#Deck#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="method#Deck#1;class#Deck#0" expanded="false" />
+            <element signature="e#887#912#0" expanded="false" />
+            <element signature="method#saveToJSON#0;class#Deck#0" expanded="false" />
+            <element signature="e#1459#1507#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1589,14 +1489,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1628,14 +1520,6 @@
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1676,16 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
-          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Card#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1702,8 +1576,8 @@
           <caret line="93" column="36" lean-forward="false" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
           <folding>
             <element signature="docComment;class#Players#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1338#1339#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1718,21 +1592,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/Views/DeckBackDialog.fxml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160212/json-20160212.jar!/org/json/JSONArray.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/Views/MainView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="448">
+          <caret line="36" column="86" lean-forward="false" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
           <folding />
         </state>
       </provider>
@@ -1742,7 +1613,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/CardBack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="136">
           <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1751,20 +1622,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/javafx-src.zip!/javafx/util/Callback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="60" column="80" lean-forward="false" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="80" />
+        <state relative-caret-position="476">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Card#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Views/DeckBackDialog.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1772,49 +1652,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/src/Resources/Views/DeckManager.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
-            <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
-            <element signature="method#tweakLists#0;class#MainController#0" expanded="false" />
-            <element signature="class#2315:2889" expanded="false" />
-            <element signature="e#2482#2835#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
-            <element signature="class#2961:3584" expanded="false" />
-            <element signature="e#3113#3530#0" expanded="true" />
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="class#5357:7517" expanded="false" />
+            <marker date="1483060393747" expanded="true" signature="1599:1904" ph="..." />
+            <marker date="1483060393747" expanded="true" signature="1619:1886" ph="..." />
+            <marker date="1483060393747" expanded="true" signature="1799:1865" ph="..." />
+            <marker date="1483060393747" expanded="true" signature="1820:1842" ph="..." />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Deck#0;class#Deck#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/JSONToObj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="299">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1823,13 +1680,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Handlers/HSAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="55" column="80" lean-forward="false" selection-start-line="55" selection-start-column="80" selection-end-line="55" selection-end-column="80" />
+        <state relative-caret-position="586">
+          <caret line="82" column="61" lean-forward="false" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getCard#0;class#HSAPI#0" expanded="false" />
-            <element signature="e#2304#2314#0" expanded="true" />
+            <element signature="method#getAllCardBacks#0;class#HSAPI#0" expanded="false" />
+            <element signature="e#3509#3519#0" expanded="true" />
             <element signature="method#getSingleCardback#0;class#HSAPI#0" expanded="false" />
+            <element signature="method#expansions#0;class#HSAPI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/HeroDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Views/HeroDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Objects/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;class#Deck#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="method#Deck#1;class#Deck#0" expanded="false" />
+            <element signature="e#887#912#0" expanded="false" />
+            <element signature="method#saveToJSON#0;class#Deck#0" expanded="false" />
+            <element signature="e#1459#1507#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="67" column="62" lean-forward="false" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onHeroClick#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#setupDragAndDrop#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#checkCardAmount#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#setupListCellFactory#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="e#4970#5387#0" expanded="true" />
+            <element signature="e#5386#5387#0" expanded="true" />
+            <element signature="method#setupTabs#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#createNeutralPages#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#createTilePanesForPages#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#setupImageViews#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#getNumberOfNeutral#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#newScrollPanePage#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#whereCard#0;class#DeckManagerController#0" expanded="false" />
+            <element signature="method#setHero#0;class#DeckManagerController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/DeckBackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/uk/theborde/hstourneyadmin/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="128" column="6" lean-forward="true" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
+          <folding>
+            <element signature="method#createNewPlayer#0;class#MainController#0" expanded="false" />
           </folding>
         </state>
       </provider>

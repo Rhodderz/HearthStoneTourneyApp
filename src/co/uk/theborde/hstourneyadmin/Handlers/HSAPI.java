@@ -20,6 +20,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 /**
  * Created by easyr on 21/12/2016.
@@ -44,6 +45,8 @@ public class HSAPI {
     }
 
     public static ObservableList<Card> getAllCards(){
+        //This was a mistake lol
+        //Will have this as all cards in one.
         ObservableList<Card> cards = FXCollections.observableArrayList(new ArrayList<Card>());
 
         try{
@@ -51,9 +54,35 @@ public class HSAPI {
                     .header("X-Mashape-Key", "hzhJddPhgxmshn5MdqLhuLmI5LIRp1A22LFjsnDiq8WaEuvWXa")
                     .asJson();
 
-            JSONArray cardJArray = response.getBody().getArray();
-            for(int i = 0; i < cardJArray.length(); i++){
-                cards.add(JSONToObj.JSONObjToCard(cardJArray.getJSONObject(i)));
+            for(JSONArray expansion : expansions(response)){
+                for(Object jsonObj : expansion){
+                    if(((JSONObject)jsonObj).has("img")) {
+                        if(!((JSONObject) jsonObj).getString("type").equalsIgnoreCase("Hero Power")
+                                && !((JSONObject) jsonObj).getString("type").equalsIgnoreCase("Hero")) {
+                            Card card = JSONToObj.JSONObjToCard((JSONObject) jsonObj);
+                            cards.add(card);
+                        }
+                    }
+                }
+            }
+        }catch (UnirestException une){
+            une.printStackTrace();
+        }
+
+        return cards;
+    }
+
+    public static ObservableList<Card> getAllCardsByType(String type){
+        ObservableList<Card> cards = FXCollections.observableArrayList(new ArrayList<Card>());
+
+        try{
+            HttpResponse<JsonNode> response = Unirest.get("https://omgvamp-hearthstone-v1.p.mashape.com/cards/types/"+type)
+                    .header("X-Mashape-Key", "hzhJddPhgxmshn5MdqLhuLmI5LIRp1A22LFjsnDiq8WaEuvWXa")
+                    .asJson();
+
+            for(Object object : response.getBody().getArray()){
+                Card card = JSONToObj.JSONObjToCard((JSONObject)object);
+                cards.add(card);
             }
         }catch (UnirestException une){
             une.printStackTrace();
@@ -105,4 +134,46 @@ public class HSAPI {
         }
         return result;
     }
+
+    //Helpers
+    private static ArrayList<JSONArray> expansions(HttpResponse<JsonNode> response){
+        ArrayList<JSONArray> result = new ArrayList<>();
+
+        try{
+            result.add(response.getBody().getObject().getJSONArray("Basic"));
+            result.add(response.getBody().getObject().getJSONArray("Whispers of the Old Gods"));
+            result.add(response.getBody().getObject().getJSONArray("The Grand Tournament"));
+            result.add(response.getBody().getObject().getJSONArray("Classic"));
+            result.add(response.getBody().getObject().getJSONArray("Blackrock Mountain"));
+            result.add(response.getBody().getObject().getJSONArray("Naxxramas"));
+            result.add(response.getBody().getObject().getJSONArray("Karazhan"));
+            result.add(response.getBody().getObject().getJSONArray("Tavern Brawl"));
+            result.add(response.getBody().getObject().getJSONArray("Promo"));
+            result.add(response.getBody().getObject().getJSONArray("Reward"));
+            result.add(response.getBody().getObject().getJSONArray("The League of Explorers"));
+            result.add(response.getBody().getObject().getJSONArray("Mean Streets of Gadgetzan"));
+            result.add(response.getBody().getObject().getJSONArray("Goblins vs Gnomes"));
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
+
+        return result;
+    }
+
+    /*
+    FOR single expansions
+    JSONArray basicCards = response.getBody().getObject().getJSONArray("Basic");
+            JSONArray wotogCards = response.getBody().getObject().getJSONArray("Whispers of the Old Gods");
+            JSONArray tgt = response.getBody().getObject().getJSONArray("The Grand Tournament");
+            JSONArray classicCards = response.getBody().getObject().getJSONArray("Classic");
+            JSONArray bmCards = response.getBody().getObject().getJSONArray("Blackrock Mountain");
+            JSONArray naxCards = response.getBody().getObject().getJSONArray("Naxxramas");
+            JSONArray karCards = response.getBody().getObject().getJSONArray("Karazhan");
+            JSONArray tavernCards = response.getBody().getObject().getJSONArray("Tavern Brawl");
+            JSONArray promoCards = response.getBody().getObject().getJSONArray("Promo");
+            JSONArray rewardCards = response.getBody().getObject().getJSONArray("Reward");
+            JSONArray leoCards = response.getBody().getObject().getJSONArray("The League of Explorers");
+            JSONArray msgCards = response.getBody().getObject().getJSONArray("Mean Streets of Gadgetzan");
+            JSONArray gvgCards = response.getBody().getObject().getJSONArray("Goblins vs Gnomes");
+     */
 }
